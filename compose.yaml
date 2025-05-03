@@ -17,6 +17,7 @@ services:
       - busnet
       - cachenet
       - dbnet
+      - smtpnet
     secrets:
       - source: db_ca_crt
         target: ca.crt
